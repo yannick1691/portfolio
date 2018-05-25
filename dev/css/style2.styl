@@ -1,0 +1,450 @@
+laptop = '(min-width: 900px) and (max-width: 1100px)'
+tablet = '(min-width: 600px) and (max-width: 899px)'
+mobile = '(max-width: 599px)'
+smallerDesktop = '(min-width: 1101px) and (max-width: 1430px)'
+desktop = '(min-width: 1101px)'
+
+
+html,body
+  margin: 0
+  padding: 0
+  background: #FBFBFB
+  max-width: 100vw
+  overflow-x: hidden;
+  box-sizing: border-box
+
+@media desktop
+  body
+    &::-webkit-scrollbar
+      width: 0.4em
+    &::-webkit-scrollbar-track
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+    &::-webkit-scrollbar-thumb
+      background-color: slategray;
+      outline 1px solid slategrey
+      opacity: 0.5
+      border-radius: 3px
+
+h1
+  font: 40px 'Roboto', sans-serif
+  color: #333333
+  margin: 0
+  z-index: 2
+  font-weight: 900
+  text-transform: uppercase
+  font-size: 36px
+  line-height: 43px
+  @media mobile
+    font-size: 32px
+
+h2, h3
+  font: 30px 'Roboto', sans-serif
+  color: #333333
+  margin: 0
+  z-index: 2
+  font-weight: 400
+
+h3
+  text-transform: uppercase
+  font-weight: 900;
+
+p
+  color: #333333;
+  font-family: 'Open Sans', sans-serif
+  font-size: 16px
+  span
+    color: #2196F3
+    font-style: italic
+    padding-right: 5px
+
+header
+  height: 75px
+  width: 100%
+  background-color: #212121
+  display: flex
+  justify-content: space-between
+  align-items: center
+  position: relative
+  img
+    height: 60px
+    margin: 20px 15px
+    @media mobile
+      height: 35px
+  a
+    img
+      height: 40px
+      margin: 30px 25px
+
+.line
+  background: linear-gradient(319.71deg, #21D4FD 0%, #B721FF 100%);
+  width: 100%
+  margin: 0
+  padding: 0
+  height: 3px
+  position: absolute
+  top: 0
+  left: 0
+
+.projectinfo
+  width: 45vw
+  margin: 60px 5vw 60px 8vw
+  max-width: 500px
+  min-width: 300px
+  display: inline-block
+  vertical-align: top
+  @media tablet
+    width: 77vw
+    margin: 60px 5vw
+  @media mobile
+    width: 90vw
+    margin: 60px 5vw 60px 5vw
+    min-width: 200px
+
+
+.tags
+  margin: 0
+  padding: 0
+  display: flex
+  justify-content: flex-start
+  flex-wrap: wrap
+  width: 100%
+
+li
+  color: #2196F3
+  list-style: none
+  font-family: 'Open Sans', sans-serif
+  padding: 5px 10px 5px 0px
+  font-size: 13px
+  line-height: 14px
+  text-transform: capitalize
+
+a.button
+  display: block
+  width: 50%
+  padding: 10px 0
+  text-align: center
+  border: 2px solid #2196F3
+  text-decoration: none
+  color: #212121
+  font-family: 'Roboto', sans-serif
+  font-size: 15px
+  font-weight: bold
+  line-height: 16px
+  margin: 0 auto
+  text-transform: uppercase
+  background: none;
+  transition: all .2s ease
+  &:hover
+    background: #2196F3
+    color: white
+
+a.button
+  display: block
+  width: 50%
+  padding: 10px 0
+  text-align: center
+  border: 2px solid #2196F3
+  text-decoration: none
+  color: #212121
+  font-family: 'Roboto', sans-serif
+  font-size: 15px
+  font-weight: bold
+  line-height: 16px
+  margin: 0 auto
+  text-transform: uppercase
+  background: none;
+  transition: all .2s ease
+  &:hover
+    background: #2196F3
+    color: white
+
+a.button-dark
+  border: 2px solid #fafafa
+  color: #fafafa
+  display: inline-block
+  max-width 90%
+  padding: 10px 20px;
+  width: auto
+  &:hover
+    background: #fafafa
+    color: #212121
+
+.intro
+  display: flex
+  justify-content: space-between
+  flex-wrap: nowrap
+  width: 100%
+
+.showcase
+  width: 39vw
+  min-width: 300px
+  margin: 66px 8vw 60px 5vw
+  display: inline-block
+  position: relative
+  margin-bottom: -200px
+  @media tablet
+    display: none
+  @media mobile
+    display: none
+
+article
+  width: 100%
+  overflow: hidden
+  height: 100%
+  max-width: 100vw
+  // margin-top: -100px
+
+.design
+  background: linear-gradient(115.57deg, #45A4FA 0%, #2196F3 100%);
+  margin: 0 -50px
+  transform-origin: left center
+  transform: rotate(3deg)
+  @media mobile
+    display: none
+  h2
+    color: #FBFBFB
+    text-transform: uppercase
+    font-weight: 900
+    font-size: 33px
+    text-align: center
+
+.content
+  transform: rotate(-3deg)
+  padding-top: 80px
+  padding-left: 50px
+  padding-bottom: 80px
+
+.fotografie
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+
+.previews
+  display: flex
+  width: 86vw
+  margin: 50px 8vw
+  justify-content: space-around
+  flex-wrap: nowrap
+  @media tablet
+    width: 95vw
+    margin: 50px 2.5vw
+
+.showcaseGif
+  box-sizing: border-box
+  width: 80%
+  object-fit: cover
+  object-position: center
+
+.gif
+  width: 100%;
+  height: 100%;
+
+.mockup
+  height: 490px
+  width: 300px
+  background-color: #FFFFFF
+  background-size: cover
+  margin: 0px 10px
+  box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.25);
+  @media laptop
+    height: 400px
+  @media tablet
+    height: 340px
+
+.process
+  display: flex
+  flex-wrap: nowrap
+  margin-bottom: 70px
+  margin-top: 200px
+  @media mobile
+    background-image: url('../links/img/background.svg')
+    background-size: cover
+    background-position: top left
+    margin-bottom: 0
+    margin-top: 50px
+  h2
+    font-weight: bold
+    text-transform: uppercase
+
+
+.processSide
+  width: 40vw
+  min-width: 250px
+  max-width: 500px
+  position: relative
+  margin-right: 8vw
+  margin-top: 50px
+  vertical-align: top
+  display: inline-block
+  @media laptop
+    margin-top: -30px
+  @media tablet
+    margin-top: -30px
+    min-width: 325px
+  @media smallerDesktop
+    margin-top: -40px
+  @media mobile
+    margin-top: 60px
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.25)
+    border-radius: 4px
+    background: radial-gradient(circle, #EBEDEE 0%, #FBFBFB 100%)
+    padding: 25px
+    width: 90vw
+    margin: 50px 5vw 50px 5vw
+    min-width: 100px
+  a
+    color: #0069c0
+    font-family: 'Open Sans', sans-serif
+    font-size: 16px
+    line-height: 20px
+    display: block
+    padding: 5px 15px 5px 0px
+    text-decoration: none
+    &:after,&:before
+      transition: transform 0.3s, opacity 0.2s
+      display: inline-block
+      opacity: 0
+    &:before
+      margin-right: 10px
+      content: '['
+      transform: translateX(20px)
+      color: #0039c0
+      font-size: 18px
+    &:after
+      margin-left: 10px
+      content: ']'
+      transform: translateX(-20px)
+      color: #0039c0
+      font-size: 18px
+    &:hover
+      color: #333333
+      &:before, &:after
+        opacity: 1
+        transform: translateX(0px)
+    &:focus
+      color: #333333
+      &:before, &:after
+        opacity: 1
+        transform: translateX(0px)
+
+.tag
+  line-height: 16px
+  margin-bottom: 4px
+
+.wireframe
+  margin: 0 8vw
+  width: 40vw
+  flex-shrink: 2
+  @media mobile
+    display: none
+  @media tablet
+    width: 90vw
+    margin: 0 5vw
+  img
+    width: 100%
+    height: 100%
+    object-fit: contain
+    object-position: top center
+
+.toTop
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  background none
+  outline: none
+  border none
+  background: #333333
+  border-radius: 100%
+  height: 35px;
+  width: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  opacity 0
+  transition all .2s ease
+  pointer-events none
+  img
+    width: 70%
+
+.navbarActive
+  opacity: 1
+  pointer-events: auto
+
+.animationShowcase{
+  flex-direction: column;
+}
+
+// Header Fix
+.headerFixed{
+  position: fixed
+  height: 60px
+  top: 0
+  left: 0
+  z-index: 20;
+  transition: all .4s ease;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  img{
+    height: 40px
+  }
+  a{
+    img{
+      margin: 15px 25px 10px;
+      height: 30px;
+    }
+  }
+}
+
+.bodactive
+  margin-top: 75px;
+
+.onderdeel
+  color: #0069c0
+  font-family: 'Open Sans', sans-serif
+  font-size: 16px
+  line-height: 20px
+  display: block
+  padding: 5px 15px 5px 0px
+  text-decoration: none
+  &:after,&:before
+    transition: transform 0.3s, opacity 0.2s
+    display: inline-block
+    opacity: 0
+  &:before
+    margin-right: 10px
+    content: '['
+    transform: translateX(20px)
+    color: #0039c0
+    font-size: 18px
+  &:after
+    margin-left: 10px
+    content: ']'
+    transform: translateX(-20px)
+    color: #0039c0
+    font-size: 18px
+  &:hover
+    color: #333333
+    &:before, &:after
+      opacity: 1
+      transform: translateX(0px)
+  &:focus
+    color: #333333
+    &:before, &:after
+      opacity: 1
+      transform: translateX(0px)
+
+.fwidth
+  width: 70%
+  margin: 50px 15%
+
+.video-showcase
+  width: 100%
+  min-height: 350px
+  border: 0
+
+/* CSS for slideshow */
+.slider
+  width: 100%
+  .slide
+    width: 80vw
+    margin: 15px auto

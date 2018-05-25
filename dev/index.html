@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio Yannick Frisart | Front-end developer Nederland.</title>
+  <meta name="description" content="Portfolio van Yannick Frisart. Frontend developer met een sweet spot voor UX. 3e Jaars tudent mediavormgeving in de richting design for interaction.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Yannick Frisart">
+  <link rel="preload" href="css/style.css" as="style">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#45A4FA">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#45A4FA">
+  <!-- Twitter share card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@niceyannick" />
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Person",
+      "name": "Yannick Frisart",
+      "jobTitle": "Front-end developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "santpoort-zuid",
+        "addressRegion": "Noord-Holland"
+      }
+    }
+  </script>
+  <!-- Facebook share card -->
+  <meta property="og:url" content="https://yannick-frisart.nl/index.html" />
+  <meta property="og:title" content="Portfolio Yannick Frisart" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Front-end & UX portfolio Yannick Frisart. Student design for interaction" />
+  <meta property="og:image" content="https://yannick-frisart.nl/facebook-cards/home.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="language" content="nederland">
+</head>
+
+<body>
+  <header role="banner">
+    <div class="logo-bar">
+      <img src="links/img/logo.svg" alt="{Y} yannick frisart - logo">
+    </div>
+    <h1>Hallo, ik ben Yannick</h1>
+    <h2>Front End developer & UX designer</h2>
+  </header>
+  <nav role="navigation">
+    <a role="button" id="to-werk" aria-label="Knop mijn werk, foto van het project werken voor een opdrachtgever">
+      <figure class="nav-figure">
+        <img src="links/img/thumbs/buurt-boerderij-thumb.jpg" sizes="22.5vw" srcset="links/img/thumbs/buurt-boerderij-thumb.jpg 800w, links/img/thumbs/buurt-boerderij-thumb@0,5x.jpg 400w, links/img/thumbs/buurt-boerderij-thumb@0,75x.jpg 600w, links/img/thumbs/buurt-boerderij-thumb@2x.jpg 1600w" alt="Knop mijn werk, foto van het project werken voor een opdrachtgever">
+        <figcaption>
+          <h3>mijn werk</h3>
+        </figcaption>
+      </figure>
+    </a>
+    <a role="button" id="to-skills" aria-label="Knop vaardigheden, foto van mij aan het werk aan het project stad als spel">
+      <figure class="nav-figure">
+        <img src="links/img/thumbs/vaardigheden-thumb.jpg" sizes="22.5vw" srcset="links/img/thumbs/vaardigheden-thumb.jpg 700w, links/img/thumbs/vaardigheden-thumb@0,5x.jpg 350w, links/img/thumbs/vaardigheden-thumb@0,75x.jpg 525w, links/img/thumbs/vaardigheden-thumb@2x.jpg 1400w" alt="Knop vaardigheden, foto van mij aan het werk aan het project stad als spel">
+        <figcaption>
+          <h3>vaardigheden</h3>
+        </figcaption>
+      </figure>
+    </a>
+    <a role="button" id="to-about" aria-label="Knop over mij, foto van mij">
+      <figure class="nav-figure">
+        <img src="links/img/thumbs/over-mij-thumb.jpg" sizes="22.5vw" srcset="links/img/thumbs/over-mij-thumb.jpg 700w, links/img/thumbs/over-mij-thumb@0,5x.jpg 350w, links/img/thumbs/over-mij-thumb@0,75x.jpg 525w, links/img/thumbs/over-mij-thumb@2x.jpg 1400w" alt="Knop over mij, foto van mij">
+        <figcaption>
+          <h3>over mij</h3>
+        </figcaption>
+      </figure>
+    </a>
+  </nav>
+  <!-- To top Button -->
+  <button class="toTop" aria-label="scroll to Top">
+    <img src="links/img/top.svg" alt="to top">
+  </button>
+  <article>
+    <section id="werk">
+      <div class="content">
+        <h2>mijn werk</h2>
+        <div class="werken">
+          <a href="uva.html" aria-label="Link naar het UVA project">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img sizes="25vw, 25vw" srcset="links/img/home/mockups/mockup-uva.jpg 500w,
+                links/img/home/mockups/mockup-uva@0,5x.jpg 250w,
+                links/img/home/mockups/mockup-uva@0,75x.jpg 375w,
+                links/img/home/mockups/mockup-uva@2x.jpg 1000w" alt="mockup van project letterplein">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <a href="stedenproject.html" aria-label="Link naar het project stadalsspel">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img src="links/img/home/mockups/mockup-stadalsspel.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-stadalsspel.jpg 500w, links/img/home/mockups/mockup-stadalsspel@0,5x.jpg 250w, links/img/home/mockups/mockup-stadalsspel@0,75x.jpg 375w, links/img/home/mockups/mockup-stadalsspel@2x.jpg 1000w" alt="mockup van project stad als spel">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <a href="popupled.html" aria-label="Link naar het project startup">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img src="links/img/home/mockups/mockup-startup.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-startup.jpg 500w, links/img/home/mockups/mockup-startup@0,5x.jpg 250w, links/img/home/mockups/mockup-startup@0,75x.jpg 375w, links/img/home/mockups/mockup-startup@2x.jpg 1000w" alt="mockup van project startup">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <a href="projectmanagement.html" aria-label="Link naar het projectmanagement">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img src="links/img/home/mockups/mockup-pman.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-pman.jpg 500w, links/img/home/mockups/mockup-pman@0,5x.jpg 250w, links/img/home/mockups/mockup-pman@0,75x.jpg 375w, links/img/home/mockups/mockup-pman@2x.jpg 1000w" alt="mockup van project management tool">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <a href="jobs-future.html" aria-label="Link naar het project jobs of the future">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img src="links/img/home/mockups/mockup-jobsoffuture.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-jobsoffuture.jpg 500w, links/img/home/mockups/mockup-jobsoffuture@0,5x.jpg 250w, links/img/home/mockups/mockup-jobsoffuture@0,75x.jpg 375w, links/img/home/mockups/mockup-jobsoffuture@2x.jpg 1000w" alt="mockup van project jobs of the future">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <a href="ons-genoegen.html" aria-label="Link naar het project werken voor een opdrachtgever">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img src="links/img/home/mockups/mockup-werkopdracht.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-werkopdracht.jpg 500w, links/img/home/mockups/mockup-werkopdracht@0,5x.jpg 250w, links/img/home/mockups/mockup-werkopdracht@0,75x.jpg 375w, links/img/home/mockups/mockup-werkopdracht@2x.jpg 1000w" alt="mockup van project werken voor opdrachtgever">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <a href="jquery.html" aria-label="Link naar het project jquery game">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img src="links/img/home/mockups/mockup-jquery.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-jquery.jpg 500w, links/img/home/mockups/mockup-jquery@0,5x.jpg 250w, links/img/home/mockups/mockup-jquery@0,75x.jpg 375w, links/img/home/mockups/mockup-jquery@2x.jpg 1000w" alt="mockup van project jquery">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <a href="webgem.html" aria-label="Link naar het project webgem">
+            <div class="werk-thumb">
+              <figure class="werkFig">
+                <img src="links/img/home/mockups/mockup-webgem.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-webgem.jpg 500w, links/img/home/mockups/mockup-webgem@0,5x.jpg 250w, links/img/home/mockups/mockup-webgem@0,75x.jpg 375w, links/img/home/mockups/mockup-webgem@2x.jpg 1000w" alt="mockup van project webgem">
+                <figcaption>
+                </figcaption>
+              </figure>
+            </div>
+          </a>
+          <div class="moreItems">
+            <a href="hiphopwarfare.html" aria-label="Link naar het project hiphopwarfare">
+              <div class="werk-thumb">
+                <figure class="werkFig">
+                  <img src="links/img/home/mockups/mockup-hiphopwarfare.jpg" sizes="25vw" srcset="links/img/home/mockups/mockup-hiphopwarfare.jpg 500w, links/img/home/mockups/mockup-hiphopwarfare@0,5x.jpg 250w, links/img/home/mockups/mockup-hiphopwarfare@0,75x.jpg 375w, links/img/home/mockups/mockup-hiphopwarfare@2x.jpg 1000w" alt="mockup van project hiphop warfare">
+                  <figcaption>
+                  </figcaption>
+                </figure>
+              </div>
+            </a>
+            <a href="fotoreeks.html" aria-label="Link naar het project fotoreeks">
+              <div class="werk-thumb">
+                <figure class="werkFig">
+                  <img sizes="25vw, 25vw" srcset="links/img/home/mockups/mockup-fotoreeks.jpg 500w, links/img/home/mockups/mockup-fotoreeks@0,5x.jpg 250w, links/img/home/mockups/mockup-fotoreeks@0,75x.jpg 375w, links/img/home/mockups/mockup-fotoreeks@2x.jpg 1000w" alt="mockup van project fotoreeks">
+                  <figcaption>
+                  </figcaption>
+                </figure>
+              </div>
+            </a>
+          </div>
+          <button class="moreWork">meer weergeven</button>
+        </div>
+      </div>
+    </section>
+    <section id="myskills">
+      <div class="content">
+        <h2>mijn vaardigheden</h2>
+        <div class="skills">
+          <div class="sk">
+            <div class="img svg-anim">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 130.36 100.84"><defs><style>.cls-1,.cls-2{fill:#fff;}</style></defs><title>responsive-des-anim</title><path id="desktop" class="cls-1" d="M120.88,65.39V15.13a2,2,0,0,0-1.93-1.93H22.28a2,2,0,0,0-1.93,1.93V65.39a2,2,0,0,0,1.93,1.93h96.67a2,2,0,0,0,1.93-1.93Zm7.73-50.27V80.86a9.7,9.7,0,0,1-9.67,9.67H86.08a12.73,12.73,0,0,0,1,4.68A44.47,44.47,0,0,0,89,99.5a6.9,6.9,0,0,1,1,2.63A3.92,3.92,0,0,1,86.08,106H55.14a3.92,3.92,0,0,1-3.87-3.87,6.67,6.67,0,0,1,1-2.66,42.92,42.92,0,0,0,1.93-4.23,12.64,12.64,0,0,0,1-4.71H22.28a9.31,9.31,0,0,1-6.83-2.84,9.31,9.31,0,0,1-2.84-6.83V15.13A9.31,9.31,0,0,1,15.45,8.3a9.31,9.31,0,0,1,6.83-2.84h96.67a9.31,9.31,0,0,1,6.83,2.84A9.31,9.31,0,0,1,128.61,15.13Z" transform="translate(-5.43 -5.46)"/><path id="laptop" class="cls-2" d="M33.68,88.8A10.9,10.9,0,0,1,22.81,77.94V30.14A10.9,10.9,0,0,1,33.68,19.27h73.87a10.9,10.9,0,0,1,10.86,10.86v47.8A10.9,10.9,0,0,1,107.55,88.8ZM31.5,30.14v47.8a2.2,2.2,0,0,0,2.17,2.17h73.87a2.2,2.2,0,0,0,2.17-2.17V30.14A2.2,2.2,0,0,0,107.55,28H33.68a2.2,2.2,0,0,0-2.17,2.17Zm-26.07,63H135.79v6.52q0,2.72-3.19,4.62a14.73,14.73,0,0,1-7.67,1.9H16.3a14.73,14.73,0,0,1-7.67-1.9q-3.19-1.9-3.19-4.62ZM76,99.66a1.09,1.09,0,1,0,0-2.17H65.18a1.09,1.09,0,1,0,0,2.17Z" transform="translate(-5.43 -5.46)"/><path id="mobile" class="cls-2" d="M75.81,98a5.21,5.21,0,1,0-1.53,3.67A5,5,0,0,0,75.81,98ZM89.32,87.59V41.86a2.11,2.11,0,0,0-2.08-2.08H54a2.11,2.11,0,0,0-2.08,2.08V87.59A2.11,2.11,0,0,0,54,89.67H87.24a2.11,2.11,0,0,0,2.08-2.08ZM76.85,32.51a.92.92,0,0,0-1-1H65.41a1,1,0,1,0,0,2.08H75.81A.92.92,0,0,0,76.85,32.51Zm18.71-1V98a8.43,8.43,0,0,1-8.31,8.31H54A8.43,8.43,0,0,1,45.67,98V31.47A8.43,8.43,0,0,1,54,23.16H87.24a8.43,8.43,0,0,1,8.31,8.31Z" transform="translate(-5.43 -5.46)"/></svg>
+            </div>
+            <h3>responsive design</h3>
+            <p>Ik design en codeer altijd met de gedachte mobile first. In het hedendaagse leven is een website die goed werkt
+              op alle devices een pré.<br> Het zorgen voor een fijne User Experience voor de gebruiker op elk schermformaat
+              is ook iets waar ik op focus.</p>
+          </div>
+          <div class="sk">
+            <div class="img">
+              <img src="links/img/coderen.svg" alt="coderen">
+            </div>
+            <h3>coderen</h3>
+            <p>Ik bouw website’s met html5, css3 en javascript. Ik hou ervan om van de grond op iets te bouwen, maar kan ook
+              omgaan met frameworks zoals bootstrap en jQuery.<br> Bij het schrijven van code focus ik op 3 dingen Clean,
+              performance & cross browser support</p>
+          </div>
+          <div class="sk">
+            <div class="img">
+              <img src="links/img/UX.svg" alt="user experience design">
+            </div>
+            <h3>UX</h3>
+            <p>Ik ontwerp altijd met het goal om de beste UX voor de gebruiker te leveren. Een duidelijke flow creëeren in mijn
+              ontwerpen is altijd van belang.<br> Zorgen dat mijn code ook altijd geoptimaliseerd is voor performance zodat
+              de gebruiker een betere ervaring heeft is ook altijd een pré bij mij.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="aboutme">
+      <div class="content">
+        <div class="aboutwrap">
+          <div class="abme">
+            <h2>over mij</h2>
+            <p>
+              Hallo, mijn naam is Yannick.<br> Ik ben een Frontender met een sweet spot voor UX design.<br> Ik focus op het
+              leveren van clean en minimale code die geschreven is voor performance.
+              <br><br> Bij design is een goede user experience voor de gebruiker een pré.<br> Ik ben leergierig en ben altijd
+              bezig met uitbreiden van mijn kennis van het vakgebied.
+              <br><br> Buiten mijn school om ben ik bezig met het leren van SASS, React.js, Node en svg animaties.
+            </p>
+            <a href="links/pdf/cv.pdf" target="blank">BEKIJK CV</a>
+          </div>
+          <div class="imgwrap">
+            <img src="links/img/home/about-me.jpg" sizes="(min-width: 300px) 29vw, 70vh" srcset="links/img/home/about-me.jpg 600w, links/img/home/about-me@2x.jpg 1200w, links/img/home/about-me@0,5x.jpg 300w"
+              alt="foto van mij" class="me">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="content">
+        <h2>contact</h2>
+        <div class="social">
+          <div class="half"><a rel="noopener" href="https://www.linkedin.com/in/yannick-frisart/" target="blank"><img src="links/img/linkedIn.svg" alt="LinkedIn logo">connect on LinkedIn</a></div>
+          <div class="half"><a rel="noopener" href="https://twitter.com/NiceYannick" target="blank"><img src="links/img/twitter.svg" alt="Twitter Logo">volg me op Twitter</a></div>
+        </div>
+        <div class="social">
+          <div class="half"><a href="tel:0644476421"><img src="links/img/phone.svg" alt="telefoon icon">06 4447 6421</a></div>
+          <div class="half"><a href="mailto:yannick.frisart@outlook.com"><img src="links/img/mail.svg" alt="Mail icon">yannick.frisart@outlook.com</a></div>
+        </div>
+      </div>
+    </section>
+  </article>
+  <footer>
+    <p>Copyright 2015 - 2018 Yannick Frisart - All rights reserved</p>
+    <a href="sitemap.html">sitemap</a>
+  </footer>
+  <script src="js/script.js" async></script>
+</body>
+
+</html>

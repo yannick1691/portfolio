@@ -1,0 +1,55 @@
+{
+  "short_name": "Portfolio",
+  "name": "Portfolio van Yannick Frisart",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "launch-icons/launcher-icon.png",
+      "type": "image/png",
+      "sizes": "87x87"
+    },
+    {
+      "src": "launch-icons/launcher-iconhdpi.png",
+      "type": "image/png",
+      "sizes": "173x173"
+    },
+    {
+      "src": "launch-icons/launcher-iconmdpi.png",
+      "type": "image/png",
+      "sizes": "116x116"
+    },
+    {
+      "src": "launch-icons/launcher-iconxhdpi.png",
+      "type": "image/png",
+      "sizes": "231x230"
+    },
+    {
+      "src": "launch-icons/launcher-iconxxhdpi.png",
+      "type": "image/png",
+      "sizes": "345x345"
+    },
+    {
+      "src": "launch-icons/launcher-iconxxxhdpi.png",
+      "type": "image/png",
+      "sizes": "460x459"
+    },
+    {
+      "src": "launch-icons/launcher-icon512.png",
+      "type": "image/png",
+      "sizes": "513x513"
+    },
+    {
+      "src": "launch-icons/launcher-icon900.png",
+      "type": "image/png",
+      "sizes": "901x901"
+    },
+    {
+      "src": "launch-icons/launcher-iconxxxxhdpi.png",
+      "type": "image/png",
+      "sizes": "919x918"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "#2196F3",
+  "theme_color": "#45A4FA"
+}

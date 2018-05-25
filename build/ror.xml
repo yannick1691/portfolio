@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://yannick-frisart.nl/</title>
+  <link>http://yannick-frisart.nl/</link>
+
+<item>
+     <link>https://yannick-frisart.nl/</link>
+     <title>Portfolio Yannick Frisart Frontend developer</title>
+     <description>Portfolio van Yannick Frisart. Frontend developer met een sweet spot voor UX. 3e Jaars student mediavormgeving in de richting design for interaction.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/ons-genoegen.html</link>
+     <title>Portfolio Yannick Frisart - ons genoegen</title>
+     <description>Portfolio project werken voor een opdrachtgever.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/stedenproject.html</link>
+     <title>Portfolio Yannick Frisart - stedenproject</title>
+     <description>Portfolio project stedenproject, een app over streetart in Berlijn.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/popupled.html</link>
+     <title>Portfolio Yannick Frisart - startup</title>
+     <description>Portfolio project start-up, Een rebranding voor de start-up Popupled</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/projectmanagement.html</link>
+     <title>Portfolio Yannick Frisart - Project management</title>
+     <description>Portfolio item project management, een realtime visueel project management systeem.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/jobs-future.html</link>
+     <title>Portfolio - Jobs of the future</title>
+     <description>Portfolio project Jobs of the Future. Hoe ziet de metropool Amsterdam eruit in 2025</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/hiphopwarfare.html</link>
+     <title>Portfolio Yannick Frisart - hiphopwarfare</title>
+     <description>Portfolio project voor het festival Hiphop Warfare.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/jquery.html</link>
+     <title>Portfolio Yannick Frisart - jQuery</title>
+     <description>Portfolio item jQuery game voor scripting.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/uva.html</link>
+     <title>Portfolio Yannick Frisart - uva</title>
+     <description>Portfolio project UVA, een react app voor het verzamlen van marine data.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/fotoreeks.html</link>
+     <title>Portfolio Yannick Frisart - fotoreeks</title>
+     <description>Portfolio project fotoreeks, een reeks foto's die de kijker een blik in de tweede wereld oorlog moet geven.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/webgem.html</link>
+     <title>Portfolio Yannick Frisart - webgem</title>
+     <description>Portfolio project Webgem, Het opzetten van een eigen bedrijf.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/links/pdf/cv.pdf</link>
+     <title></title>
+
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yannick-frisart.nl/index.html</link>
+     <title>Portfolio Yannick Frisart Frontend developer</title>
+     <description>Portfolio van Yannick Frisart. Frontend developer met een sweet spot voor UX. 3e Jaars tudent mediavormgeving in de richting design for interaction.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+Logo.ai
+.DS_Store
+*.jpg
+*.svg
+*.png
+*.gif
+*.psd
+*.pdf
+dev/other-files/dont-upload-source-files/logo-sketch-webgem
+node_modules
